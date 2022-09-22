@@ -1,0 +1,236 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+   /* CUSTOM STYLE */
+   body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: karla;
+   }
+
+   *,
+   *::before,::after{
+    box-sizing: border-box;
+   }
+  .container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+  .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
+  h3{
+    color: black;
+    font-weight: 900;
+  }
+  nav{
+    word-spacing: 10px;
+  }
+  nav a{
+    text-decoration: none;
+  }
+  button{
+    background-color: white;
+    color:rgb(114,111,120) ;
+    border: 1px solid rgb(114,111,120);
+    font-weight: 100;
+  }
+     /* main */
+     /* section-1 */
+
+     .bgcolor{
+        background-color: rgb(45,38,64);
+        height: 350px;
+
+     }
+     h1{
+        font-size: 42px;
+        font-family: DM serif display;
+        color: white;
+        padding-left: 30px;
+    
+    
+     }
+     hr{
+      width: 200px;
+      margin-right: 470px;
+      padding-left: 50px;
+    
+     }
+
+     .heroo{
+        width: 65%;
+        padding-bottom: 200px;
+
+     }
+     .para{
+        color: white;
+        padding-left: 30px;
+        padding-right: 30px;
+     }
+     .btn2{
+        color: white;
+        background-color:  rgb(45,38,64);
+        margin-left: 30px;
+        margin-top: 30px;
+     }
+     .img-1{
+        width: 100%;
+        height: 500px;
+        /* padding-top: 120px; */
+        padding-right: 100px;
+        padding-top: 30px;
+        padding-bottom: 80px;
+     }
+
+          /* article */
+          .article-1{
+            width: 50%;
+            margin-top: 100px;
+          }
+          .article-img{
+            width: 70%;
+            padding-left: 60px;
+          }
+          
+          h3{
+            font-size: 32px;
+            color: black;
+            font-weight: 500;
+            font-family: DM serif Display;
+            padding-left: 30px;
+
+          }
+          p{
+            margin: 10px 0;
+            padding-left: 30px;
+          }
+          .article-btn{
+            margin-top:10px;
+            margin-left: 30px;
+          }
+
+          /* we are different */
+           .parent{
+            width: 35%;
+           }
+
+
+          .setting{
+            width: 60px;
+             margin-left: 60px;
+            border-radius: 50%;
+            margin-top: 20px;
+            background-color: rgb(138,180,240);
+         
+          }
+          h5{
+            margin-left: 60px;
+            font-size: 16px;
+            color: black;
+            font-weight: 600;
+          }
+          .p{
+            font-size: 12px;
+            margin-left: 25px;
+          }
+          .heading{
+            margin-left: 60px;
+          }
+          .hr{
+            width: 200px;
+            margin-right: 930px;
+            margin-top: 50px;
+            margin-bottom: 10px;
+          }
+          .bgcolor2{
+            background-color:rgb(45,38,64) ;
+            /* padding: 0 30px; */
+            /* margin-left: 30px; */
+
+            
+          }
+          h2{
+            font-size: 32px;
+            color: white;
+            font-family: DM serif Display;
+            font-weight: 200;
+
+          }
+          .btn-3{
+            background-color:rgb(45,38,64) ;
+            color: white;
+            border: 1px solid white;
+            font-size: 8px;
+            padding: 5px;
+
+          }
+          .div1{
+            width: 25%;
+          }
+          .footer-hr{
+            width: 100%;
+          }
+          .footer-nav{
+            color:rgb(106,105,112) ;
+          }
+          .lower-nav{
+            text-align: center;
+            
+          }
+          .footer{
+            background-color:rgb(45,38,64) ;
+            text-align: center;
+            margin-top: 20px;
+            padding:  20px;
+            color: rgb(136,138,158);
+          }
